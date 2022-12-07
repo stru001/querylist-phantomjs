@@ -1,0 +1,24 @@
+{
+    "name": "stru/querylist-phantomjs",
+    "description": "QueryList Plugin: Use PhantomJS to crawl Javascript dynamically rendered pages.(headless WebKit ) 使用PhantomJS采集JavaScript动态渲染的页面",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stru",
+            "email": "struphp@sina.com"
+        }
+    ],
+    "require": {
+        "PHP":">=7.0",
+        "horror/php-phantomjs": "^4.6"
+    },
+    "require-dev": {
+        "jaeger/querylist": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "QL\\Ext\\": ""
+        }
+    }
+}
